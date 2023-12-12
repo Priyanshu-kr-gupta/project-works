@@ -16,7 +16,8 @@
     display: none;
 }
 #navmenu{
-    color:#BF6AF4;
+    /* color:#BF6AF4; */
+    color:white;
     /* background-color: red; */
     width: 50%;
     height: auto;
