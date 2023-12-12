@@ -38,7 +38,8 @@
 
 #toggler:checked~#navmenu{
     height: 190px;
-    background-color: #9a919f;
+    background-color: #d1cde55a;
+    backdrop-filter: blur(20px);
 }
 @media (max-width:1000px) {
     #navmenu{
