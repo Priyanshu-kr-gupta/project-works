@@ -4,7 +4,7 @@
 }
 #navbar{
     width: 100vw;
-    height:50px;
+    height:70px;
     background-color: #30073B;
     display: flex;
     align-items: center;
@@ -16,12 +16,14 @@
 }
 #navmenu{
     color:#BF6AF4;
+    /* background-color: red; */
     width: 50%;
+    height: auto;
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 20px;
     transition: all  0.3s;
-
+    overflow: hidden;
 }
 #close{
     display: none;
@@ -40,22 +42,22 @@
 }
 @media (max-width:1000px) {
     #navmenu{
-        font-size: 15px;
+        font-size: 18px;
     }
     
 }
 @media (max-width:750px) {
     #navmenu{
         position: absolute;
-        top: 50px;
+        top: 70px;
         flex-direction: column;
         align-items: center;
         height: 0px;
         width: 100%;
-        padding: 20px;
+        left: 0px;
         color: white;
         /* background-color: red; */
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     #tog{
         display: block;

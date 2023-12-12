@@ -12,10 +12,10 @@ export default function Navbar() {
     </label>
 
     <div id='navmenu'>
-        <p>kaisehoga</p>
-        <p>kaisehoga</p>
-        <p>kaisehoga</p>
-        <p>kaisehoga</p>
+        <div>kaisehoga</div>
+        <div>kaisehoga</div>
+        <div>kaisehoga</div>
+        <div>kaisehoga</div>
     </div>
 
     </div>
