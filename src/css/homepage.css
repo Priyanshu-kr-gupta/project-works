@@ -35,18 +35,6 @@
     padding-top: 20px;
     font-size: 20px;
 }
-.links{
-    margin-top: 10px;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-.links a{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    background-color:#190582;;  
-}
 @media (max-width:1320px) {
     .right{
         width: 50%;
@@ -64,9 +52,6 @@
     #bottom{
         font-size: 18px;
     }
-    .links{
-        width: 70%;
-    }
 }
 /* @media (max-width:750px) {
     .homepage{
@@ -79,4 +64,3 @@
         background-color: red;
     }
 } */
-

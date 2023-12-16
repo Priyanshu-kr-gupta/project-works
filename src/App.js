@@ -1,21 +1,32 @@
 import './App.css';
-import Home from './components/home';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+import Homepage from './Pages/Homepage.jsx';
+import Signup from './Pages/Signup.jsx';
+import LoginForm from './Pages/Loginform.jsx';
+import Logout from './Pages/Logout.jsx';
 import {
+  BrowserRouter,
   Route,
   Routes,
 } from "react-router-dom";
-import LoginForm from './components/loginform.js';
-import Signup from './components/signup.js';
-// import LoginForm from './LoginForm';
-// import SignupForm from './SignupForm';
+import Profile from './Pages/profile.jsx';
 
 function App() {
   return (
- <Routes>
-    <Route path='/' element={<Home />}/>
-    <Route path='/login' element={<LoginForm />}/>
+  <>
+  <BrowserRouter>
+  <Navbar />
+    <Routes>
+    <Route path='/Home' element={<Homepage />}/>
     <Route path='/signup' element={<Signup />}/>
- </Routes>
+    <Route path='/' element={<LoginForm />}/>
+    <Route path="/logout" element={<Logout/>}/>
+    <Route path="/profile" element={<Profile/>}/>
+    </Routes>
+    <Footer />
+  </BrowserRouter>
+  </>
   );
 }
 
